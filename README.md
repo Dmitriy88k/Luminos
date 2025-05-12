@@ -1,1 +1,1 @@
-# Luminos
+# Luminous
