@@ -73,7 +73,7 @@ const Projects = () => {
                                 <div className="inline-block bg-white w-3/4 px-4 py-2 shadow-md">
                                     <h2 className="text-xl font-semibold text-gray-800">{property.title}</h2>
                                     <p className="text-gray-500 text-sm">
-                                        {property.price} <span> | </span> {property.location}
+                                        {property.price} <span className="px-1"> | </span> {property.location}
                                     </p>
                                 </div>
                             </div>
