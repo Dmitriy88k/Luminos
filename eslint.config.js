@@ -20,10 +20,19 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+      "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'no-unused-vars': ['error', { varsIgnorePattern: "^_" }],
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },

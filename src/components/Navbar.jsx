@@ -32,6 +32,7 @@ const Navbar = () => {
                     <a href="#About" className="cursor-pointer hover:text-gray-400">About</a>
                     <a href="#Projects" className="cursor-pointer hover:text-gray-400">Projects</a>
                     <a href="#Testimonials" className="cursor-pointer hover:text-gray-400">Testimonials</a>
+                    <a href="#Contact" className="cursor-pointer hover:text-gray-400">Contact Us</a>
                 </ul>
                 <button className="hidden md:block bg-white px-8 py-2 rounded-full">Sign up</button>
                 <img src={MenuIcon} className="md:hidden w-7 cursor-pointer" alt="" onClick={handleMenuClick}/>
@@ -47,6 +48,7 @@ const Navbar = () => {
                     <a href="#About" className="px-4 py-2 rounded-full inline-block" onClick={handleMenuClick}>About</a>
                     <a href="#Projects" className="px-4 py-2 rounded-full inline-block" onClick={handleMenuClick}>Projects</a>
                     <a href="#Testimonials" className="px-4 py-2 rounded-full inline-block" onClick={handleMenuClick}>Testimonials</a>
+                    <a href="#Contact" className="px-4 py-2 rounded-full inline-block" onClick={handleMenuClick}>Contact Us</a>
                 </ul>
             </div>
 
