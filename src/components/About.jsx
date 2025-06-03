@@ -31,7 +31,7 @@ const About = () => {
                         </div>
                     </div>
                     <p className="my-15 max-w-xl w-120 text-center md:my-7 lg:text-left">We combine local expertise with cutting-edge technology to deliver smart, sustainable spaces tailored to your lifestyle. Our client-first approach has earned us a reputation for reliability, transparency, and exceptional results. Every project we take on reflects our commitment to quality, innovation, and creating lasting value for homeowners and investors alike.</p>
-                    <button className="bg-blue-600 text-white px-8 py-2 rounded mx-auto lg:mx-0">Learn more</button>
+                    <button className="bg-blue-600 text-white px-8 py-2 rounded mx-auto cursor-pointer active:scale-95 transition-all delay-75 lg:mx-0">Learn more</button>
                 </div>
             </div>
         </motion.div>

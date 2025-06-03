@@ -27,7 +27,7 @@ const Testimonials = () => {
 
             <div className="flex flex-wrap justify-center gap-8">
                 {testimonials.map((testimony, index) => (
-                    <div key={index} className="max-w-[400px] shadow-lg rounded px-8 py-12 text-center">
+                    <div key={index} className="max-w-[400px] shadow-lg rounded px-8 py-12 text-center hover:scale-105 transform transition duration-300">
                         <img src={testimony.image} alt={testimony.alt} className="w-20 h-20 rounded-full mx-auto mb-4" />
                         <h2 className="text-xl text-gray-700 font-medium">{testimony.name}</h2>
                         <p className="text-gray-500 mb-4 text-sm">{testimony.title}</p>
